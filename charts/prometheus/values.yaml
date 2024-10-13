@@ -465,6 +465,7 @@ server:
   # schedulerName:
 
   persistentVolume:
+    storageClass: "manual"
     ## If true, Prometheus server will create/use a Persistent Volume Claim
     ## If false, use emptyDir
     ##
